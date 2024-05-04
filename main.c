@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 int main(){
-int row_1,colum_1,row_2,colum_2,i,j;
+int row_1,colum_1,row_2,colum_2,i,j,queation;
 printf("Please write row matrix 1 - > ");
 scanf("%i",&row_1);
 printf("Please write colum matrix 1 - > ");
@@ -10,10 +10,6 @@ printf("Please write row matrix 2 - > ");
 scanf("%i",&row_2);
 printf("Please write colum matrix 2 - > ");
 scanf("%i",&colum_2);
-if(colum_1!=row_2){
-    printf("I can not multiption matrix...!");
-    return  0;
-}
 int matrix_1[row_1][colum_1],matrix_2[row_2][colum_2];
 for(i = 0;i<colum_1;i++){
     for(j = 0;j<row_1;j++){
@@ -43,7 +39,15 @@ for(i = 0;i<colum_2;i++){
     printf("\n");
 }
 printf("-------------------------------- \n");
+printf("Do u want mult , sub , sum (1,2,3) - > ");
+scanf("%i",&queation);
 int mul[100][100];
+switch(queation){
+case 1:
+    if(colum_1!=row_2){
+    printf("I can not multiption matrix...!");
+    return  0;
+}
 for ( i = 0; i < row_1; i++) {
     for ( j = 0; j < colum_2; j++) {
       for (int k = 0; k < colum_1; k++) {
@@ -56,6 +60,36 @@ for(i = 0;i<colum_2;i++){
         printf("%i\t",mul[j][i]);
     }
     printf("\n");
+}
+break;
+case 2 :
+   for(i = 0;i<row_1;i++){
+        for(j = 0;j<row_2;j++){
+           mul[i][j] += matrix_1[i][j] + matrix_2[i][j];
+       }
+   }
+       for(i = 0;i<colum_2;i++){
+            for(j = 0;j<row_1;j++){
+               printf("%i\t",mul[j][i]);
+        }
+    printf("\n");
+    }
+    break;
+case 3:
+   for(i = 0;i<row_1;i++){
+        for(j = 0;j<row_2;j++){
+           mul[i][j] += matrix_1[i][j] - matrix_2[i][j];
+       }
+   }
+       for(i = 0;i<colum_2;i++){
+            for(j = 0;j<row_1;j++){
+               printf("%i\t",mul[j][i]);
+        }
+    printf("\n");
+    }
+    break;
+default:
+    printf("^__Error__^");
 }
 	return 0;
 }
