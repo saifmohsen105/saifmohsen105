@@ -24,6 +24,8 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![Sql Server](https://img.shields.io/badge/SqlServer-F24E1E?style=flat&logo=figma&logoColor=white)
+![Java](https://img.shields.io/badge/Java-1572B6?style=flat&logo=java&logoColor=white)
 
 #### Backend (learning):
 ![.NET Core](https://img.shields.io/badge/.NET-512BD4?style=flat&logo=dotnet&logoColor=white)
@@ -39,25 +41,23 @@
 ### 🚀 Projects
 
 - ✅ **Chat App** – Realtime chat with Firebase  
-- ✅ **Note App** – Save your notes online  
+- ✅ **Task Management** – Save your management online  
 - ✅ **Weather App** – Get current weather info  
-- ✅ **E-Commerce App** – Built using Angular & Fake Store API  
-- ✅ **Movies App** – Built with HTML/CSS then migrated to Tailwind
+- ✅ **E-Commerce App** – Built using Angular & Real API (Route Academy)
 
 ---
 
 ### 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=saif-dev&show_icons=true&theme=radical" width="48%">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=saif-dev&layout=compact&theme=radical" width="48%">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=saifmohsen105&layout=compact&theme=radical" width="48%">
 </p>
 
 ---
 
 ### 📬 Connect with Me
 
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://t.me/your-telegram-handle)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=flat&logo=whatsapp&logoColor=white)](https://wa.me/201270819118)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-linkedin)
 
 ---
