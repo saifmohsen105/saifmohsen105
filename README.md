@@ -57,6 +57,16 @@
 
 ---
 
+## 🏆 Certifications
+
+- **Backend Development with .NET** — Route Academy _(In Progress)_
+- **Frontend Development** — Route Academy _(Expected 02/2025)_
+- **C Programming** — NTI (02/2024)
+- **Java Fundamentals** — Microsoft Technology Associate (04/2021)
+- **SQL & Oracle** — Oracle Academy (03/2021)
+
+
+
 ## 📈 GitHub Stats
 
 <p align="center">
